@@ -1,6 +1,7 @@
 import simplejson
 import twitter
 import pickle, re, os, urllib
+# code from http://zenmachine.wordpress.com/2009/08/19/data-mining-harvesting-from-twitter/
 
 detect_url_pattern = re.compile('(http://.+?/.+?(\s|$))+', re.I)
 
